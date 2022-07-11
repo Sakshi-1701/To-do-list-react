@@ -9,15 +9,16 @@ body {
   color: hsl(198, 1%, 29%);
   font-family: "Architects Daughter", cursive;
   text-align: center;
-  font-size: 130%;
+  font-size: 140%;
 }
 
 .container {
   width: 100%;
   height: auto;
-  min-height: 500px;
-  max-width: 500px;
-  min-width: 250px;
+  min-height: 600px;
+  max-width: 700px;
+  margin-top: 30px;
+  min-width: 450px;
   background: #f1f5f8;
   background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
   background-size: 25px 25px;
@@ -37,7 +38,7 @@ body {
   padding: 0.2rem 1.2rem;
   border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
   background-color: #fdcb6e;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .form input {
@@ -49,7 +50,8 @@ body {
   border: solid 3px transparent;
   border-bottom: dashed 3px #fdcb6e;
   font-family: "Architects Daughter", cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 1rem;
   color: hsla(260, 2%, 25%, 0.7);
   width: 70%;
   margin-bottom: 20px;
@@ -57,6 +59,7 @@ body {
 
 button {
   padding: 0;
+  background-color: #ffcf99;
   border: none;
   font-family: "Architects Daughter", cursive;
   text-decoration: none;
@@ -69,6 +72,8 @@ button span {
   display: block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  margin: 2px;
+
   border: 2px solid hsl(198, 1%, 29%);
 }
 
@@ -76,4 +81,5 @@ li {
   text-align: left;
   position: relative;
   padding: 0.5rem;
+  font-weight: 1rem;
 }
